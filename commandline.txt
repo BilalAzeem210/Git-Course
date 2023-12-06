@@ -1,0 +1,75 @@
+pwd command display the current directory path.
+ls command used to list file in current directory expect for hidden files.
+ls -l command return a lists structred in current directory.
+mkdir command create a folder of current directory.
+cd command use to change directory.
+touch command is use to create file in the directory.
+mv command is use to move directory.
+cat command is display what file exist.
+wc command is display the character of files.
+rm command is use to delete directory and files.
+
+TO DELETE DIRECTORY USE:
+	rm -r directory name
+TO DELETE FILE USE :
+	rm file name
+
+HOW USE PIPES TO PASS DATA:
+For Example:
+	cat file1.txt | wc -w
+How to write in files:
+For Example:
+	cat > input.txt
+	this is my file.
+	and press ctrl + d
+TO OUTPUT COMMAND:
+For Example:
+	cat < input.txt
+Grep command is used to search for lines matching a specified pattern and print the matching lines to standard output.
+
+GIT is a version control system used for tracking changes in computer files.
+
+GITHUB is a cloud based hosting service that lets you manage Git repositories from a user interface.
+
+Readme.md md means markdown.
+
+To restore a file in github use this command:
+	git restore --stage filename.
+
+Git add command is use to tell Git that the file is staged to be committed and that any further changes
+to the file will be tracked going forward.
+
+How to use git commit command:
+	git commit -m "add what you commit".
+
+To change branch name and also move that branch use this command:
+	git checkout -B Enter Your Branch Name What You Suggest.
+
+To add File use this Command:
+	git add.
+
+To check status use this Command:
+	git status
+
+To push Command:
+	git push -u orign use the branch name
+
+My Github token : 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
+
+TO ADD NEW REPOSITRY IN GITHUB
+
+git init
+git status 
+git add -A
+git commit -m ""
+git remote add origin "url"
+git push -u origin branch name
+
+TO PULL ONE BRANCH TO ANOTHER BRANCH:
+	git pull URL
+	git add -A
+	git commit -m ""
+	git pull origin BRANCH NAME --allow-unrelated-histories
+	git push
+	
+	
